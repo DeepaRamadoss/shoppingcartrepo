@@ -1,0 +1,23 @@
+{
+  "name": "Shopping Cart",
+  "version": "0.0.1",
+  "homepage": "https://github.com/DeepaRamadoss/shoppingcartrepo",
+  "authors": [
+    "Deepa"
+  ],
+  "description": "This is a shopping cart application.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "*",
+    "phonegap": "~2.9.1",
+    "underscore": "~1.6.0"
+  }
+}
