@@ -1,0 +1,11 @@
+define(["ember", "jquery"], function ( Ember, $) {
+	var app = Ember.Application.create({LOG_TRANSITIONS: true});
+	app.Router = Ember.Router.extend({enableLogging:true});
+	app.Router.map(function () {
+		this.resource('shop', {path:'/' });
+	});
+	Ember.Router.reopen({});
+	app.deferReadiness();
+	window.App = app;
+	return app;
+});
