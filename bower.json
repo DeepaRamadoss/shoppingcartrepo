@@ -19,6 +19,8 @@
     "angularjs": "*",
     "phonegap": "~2.9.1",
     "underscore": "~1.6.0",
-    "requirejs": "~2.1.14"
+    "requirejs": "~2.1.14",
+    "angular": "~1.2.19",
+    "requirejs-domready": "~2.0.1"
   }
 }
